@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px) {
+	
+.main_header {
+	max-width: 700px;
+	padding: 64px 0 105px 0;
+}	
+	
+.back_button {
+	padding-left: 65px;
+	color: white;
+}
+
+.list_item {
+
+	display: inline-flex;
+	flex-flow: row nowrap;
+	width: 370px;
+	height: auto;
+	margin: 15px 15px 60px 15px;
+}
+	
+.item_img {
+	width: 80px;
+}
+
+.item_title {
+	font-size: 25px;
+}
+.item_description {
+	font-size: 15px;
+}
+.counter {
+	right: 85px;
+	bottom: 1px;
+}
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+
+.main_list {
+	max-width:600px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin: 0 auto;
+}
+}
+
+
+
