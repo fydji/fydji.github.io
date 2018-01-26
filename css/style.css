@@ -57,7 +57,7 @@ body {
 
 .main {
 	width: 100%;
-	margin: 50px 0 150px 0;
+	margin: 50px 0 100px 0;
 }
 	@media screen and (max-width: 1280px) {
 	  .main {
@@ -71,6 +71,7 @@ body {
 	  .main {
 		margin: 20px 0 20px 0; }
 	}
+	
 .item_img, .main_img {
 	box-shadow: inset 110px 110px rgba(255,255,255,0.5);
 	-webkit-box-shadow: inset 110px 110px rgba(255,255,255,0.5);
@@ -115,7 +116,6 @@ body {
 .main_header {
 	max-width: 1080px;
 	display: flex;
-	/*flex-flow: row nowrap;*/
 	justify-content: flex-start;
 	align-items: center;
 	margin: 0 auto;
@@ -374,21 +374,22 @@ body {
 	}
 
 .counter {
-	background-color: #ff0000;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-	-webkit-border-radius: 50%;
-	z-index: 2;
+	
 	right: 113px;
 	bottom: 2px;
 	position: relative;
-	font-size: 15px;
-	color: #ffffff;
+	width: 35px;
+    height: 35px;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #ff0000;
+  	font-size: 15px;
+	color: #ffffff;
 	letter-spacing: 1px;	
+	z-index: 2;
 }
 
 	@media screen and (max-width: 1024px) {
