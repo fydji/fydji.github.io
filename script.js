@@ -63,10 +63,10 @@ function outArmyList() {
 			out += '<section class="list_item" data-id="' + armyList[j].id + '">' + '<img class="item_img"' + '" src="avatars/' + armyList[j].image + '" />' + '<span class="counter" style="visibility: hidden">' + sum +  '</span>' + '<span class="item"><h2 class="item_title">' + armyList[j].name + '</h2>' + '<p class="item_description">' + armyList[j].post + '</p>' + '</section>';
 			}
 	}
-	$('#listWarriors').fadeOut('10', function() {
+	$('#listWarriors').fadeOut('300', function() {
 		document.getElementById('listWarriors').innerHTML = out; 
 		});
-	$('#listWarriors').fadeIn(5);
+	$('#listWarriors').fadeIn(300);
 };
 
 listWarriors.onclick = function(event) {

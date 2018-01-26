@@ -90,7 +90,7 @@ var armyArray = [
 	  parent: 2
 	},
 	{
-	  id: 37,
+	  id: 31,
 	  name: "RN-35",
 	  post: "Soldier",
 	  image: "stromtrooper2.png",
@@ -105,7 +105,7 @@ var armyArray = [
 	},
 	{
 	  id: 15,
-	  name: "Darth Sidius",
+	  name: "Darh Sidius",
 	  post: "Galactic Emperor",
 	  image: "darthsidius.png",
 	},
@@ -213,48 +213,5 @@ var armyArray = [
 	  post: "Soldier",
 	  image: "stromtrooper.png",
 	  parent: 4
-	},
-	/*dobavleno*/
-	{
-	  id: 31,
-	  name: "KN-20",
-	  post: "Soldier",
-	  image: "stromtrooper.png",
-	  parent: 5
-	},
-	{
-	  id: 32,
-	  name: "KN-21",
-	  post: "Soldier",
-	  image: "stromtrooper.png",
-	  parent: 7
-	},
-	{
-	  id: 33,
-	  name: "KN-22",
-	  post: "Soldier",
-	  image: "stromtrooper.png",
-	  parent: 7
-	},
-	{
-	  id: 34,
-	  name: "KN-20",
-	  post: "Soldier",
-	  image: "stromtrooper.png",
-	  parent: 25
-	},
-	{
-	  id: 35,
-	  name: "KN-21",
-	  post: "Soldier",
-	  image: "stromtrooper.png",
-	  parent: 25
-	},
-	{
-	  id: 36,
-	  name: "KN-22",
-	  post: "Soldier",
-	  image: "stromtrooper.png",
-	  parent: 30
 	}
 ];
