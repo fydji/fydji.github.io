@@ -26,12 +26,12 @@ function findDataWarrior() {
 };
 
 function outDataWarrior() {
-	$('#warriorSelected').fadeOut(10, function() {
+	$('#warriorSelected').fadeOut(200, function() {
 		document.getElementById("warriorSelected").getElementsByTagName("img")[0].src ='avatars/' + targetWarrior[0].image;	
 		document.getElementById("warriorSelected").getElementsByTagName("h1")[0].innerHTML =targetWarrior[0].name;		
 		document.getElementById("warriorSelected").getElementsByTagName("p")[0].innerHTML = targetWarrior[0].post;
 	});
-	$('#warriorSelected').fadeIn(5);
+	$('#warriorSelected').fadeIn(100);
 };
 
 function getChildList(currentId) {
@@ -63,10 +63,10 @@ function outArmyList() {
 			out += '<section class="list_item" data-id="' + armyList[j].id + '">' + '<img class="item_img"' + '" src="avatars/' + armyList[j].image + '" />' + '<span class="counter" style="visibility: hidden">' + sum +  '</span>' + '<span class="item"><h2 class="item_title">' + armyList[j].name + '</h2>' + '<p class="item_description">' + armyList[j].post + '</p>' + '</section>';
 			}
 	}
-	$('#listWarriors').fadeOut(10, function() {
+	$('#listWarriors').fadeOut(200, function() {
 		document.getElementById('listWarriors').innerHTML = out; 
 		});
-	$('#listWarriors').fadeIn(5);
+	$('#listWarriors').fadeIn(100);
 };
 
 listWarriors.onclick = function(event) {
@@ -79,7 +79,7 @@ listWarriors.onclick = function(event) {
 	outDataWarrior();
 	armyList = getChildList(targetWarrior[0]);
 	outArmyList();
-	$('#previosWarrior, #nextWarrior').fadeOut(10, function() {
+	$('#previosWarrior, #nextWarrior').fadeOut(200, function() {
 		document.getElementById('previosWarrior').style= "visibility: visible";
 		document.getElementById('nextWarrior').style= "visibility: visible";
 		document.getElementById('levelUp').style= "visibility: visible";
@@ -87,15 +87,15 @@ listWarriors.onclick = function(event) {
 };
 
 function getOriginPage() {
-	$("article").fadeOut(10, function() {
+	$("article").fadeOut(200, function() {
 		document.getElementById("warriorSelected").getElementsByTagName("h1")[0].innerHTML = "Galactic Empire";		
 		document.getElementById("warriorSelected").getElementsByTagName("p")[0].innerHTML = "Imperial military";
 		document.getElementById("warriorSelected").getElementsByTagName("img")[0].src ='avatars/empire.png';
 		 });
-	$("article").fadeIn(5);
+	$("article").fadeIn(100);
 	armyList = getOriginList();
 	outArmyList();
-	$('#previosWarrior, #nextWarrior').fadeOut(10, function() {
+	$('#previosWarrior, #nextWarrior').fadeOut(200, function() {
 		document.getElementById('previosWarrior').style= "visibility: hidden";
 		document.getElementById('nextWarrior').style= "visibility: hidden";
 		document.getElementById('levelUp').style= "visibility: hidden";
